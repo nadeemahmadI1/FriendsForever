@@ -1,0 +1,84 @@
+.main_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+  width: 80%;
+ 
+  border-radius: 20px;
+  background: #000;
+  font-family: cursive;
+}
+.ls {
+  min-height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: aliceblue;
+  height: 75vh;
+}
+.ls h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.login_btn {
+  width: 100%;
+  padding: 10px;
+  color: aliceblue;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: large;
+  background: #9181f4;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.ls_form {
+  padding: 10px;
+  width: 60%;
+}
+.rs {
+  display: flex;
+  flex-direction: column; 
+  width:100%;
+  align-items: center;
+  text-align: center; 
+  background: rgb(145, 129, 244);
+  background: linear-gradient(
+    0deg,
+    rgba(145, 129, 244, 1) 0%,
+    rgba(162, 56, 237, 1) 100%
+  );
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.rs img {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  height: 75vh;
+  object-fit: contain;
+}
+.rs p {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-30%, -210%); 
+  text-wrap: wrap;
+  width: 80px;
+  background: rgba(255, 255, 255, 0.2); 
+  color: white;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: larger;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 80%;
+  margin: 0;
+  z-index: 0; 
+ 
+}
